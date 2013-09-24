@@ -1,0 +1,8 @@
+body { font-family: Verdana,Arial,Courier New; font-size: 0.7em; background-color: #F6F6F6;  }
+input:focus { background-color: #eee; border-color: #d2752c; }
+th { text-align: right; padding: 0.8em; }
+#container { text-align: center; width: 500px; margin: 5% auto; } 
+ul { text-align: left; list-style-type: square; } 
+.msg { margin: 0 auto; text-align: center; border-top: 1px solid #d2752c;  border-bottom: 1px solid #d2752c;  } 
+#red {text-align: center; color:red;}
+#green {text-align: center; color:green;}
