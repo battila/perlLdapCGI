@@ -114,7 +114,7 @@ if ($proceed) {
 			use Net::LDAP::Extension::SetPassword;
 
 	       	$ldap = Net::LDAP->new("$ldap_host:$ldap_port") or die "$@";
-			$mesg = $ldap->bind( "$adminbind" , password => "$admin_password" );
+			$mesg = $ldap->bind( "$admin_bind" , password => "$admin_password" );
 			$mesg = $ldap->set_password(
 				newpasswd => "$newPassword",
 				user      => "$ldap_username"
